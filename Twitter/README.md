@@ -1,14 +1,14 @@
 # Wrangling Process
 
 ## The wrangling process contains 4 main steps:
-### -First step is to gather the data, here we have 3 main sources:
+### -The first step is to gather the data, here we have 3 main sources:
 
 - Loading the `twitter-archive-enhanced.csv` file
 - Download&Save then load `image-predictions.tsv` file
 - query a data from tweeter: using tweepy API to access certain status about some tweets
 
 
-### -Second step is to assess the data quality and tidiness:
+### -The second step is to assess the data quality and tidiness:
 
 #### we can assess data both programmatically or visually, and there were several problems:
 ##### 1- Quality issues
@@ -21,8 +21,8 @@
 - `retweeted_status_timestamp` column consists of misxed datatypes (str&float) not datetime
 - `rating_numerator` & `rating_denominator` colmuns have invalid values
 - `names` column have invalid dog names
-- `tweet_id ` is int
-- some value is `None`
+- `tweet_id` is int
+- some values are `None`
 - columns have undescrpitive names
 - `p1` & `p2` & `p3` have non-dog-name values
 
@@ -46,9 +46,9 @@
 - fix `source` column
 - megre all DataFrame into one DataFrame
 
-### -  Fourth step is we discovere some insights
+### - The fourth step is we discover some insights
 - What was the most favorite tweet?
 - What was the most retweeted tweet?
 - Five most common breeds found by the neural network.
 - Common breeds by percentage.
-- Most users' sourse
+- Most users' source
