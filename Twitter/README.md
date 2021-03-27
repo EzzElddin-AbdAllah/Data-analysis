@@ -4,7 +4,7 @@
 ### -First step is to gather the data, here we have 3 main sources:
 
 - Loading the `twitter-archive-enhanced.csv` file
-- Download&Save then load image-predictions.tsv file
+- Download&Save then load `image-predictions.tsv` file
 - query a data from tweeter: using tweepy API to access certain status about some tweets
 
 
@@ -51,4 +51,4 @@
 - What was the most retweeted tweet?
 - Five most common breeds found by the neural network.
 - Common breeds by percentage.
-- Most user's sourse
+- Most users' sourse
